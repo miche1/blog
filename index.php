@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>blog miche1</title>
+<title>Blog miche1</title>
 <link href="scripte/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -21,10 +21,24 @@
 			</div>
 </header>
 
-<!--content-->
-<div id="content">
-<h1>Seite 3</h1>
-</div>
+<!-- content -->
+<section id="content">
+<h1>HOME</h1>
+
+	<article id="blog-list">
+			<?php
+				$blogcontent = file_get_contents('scripte/blog.txt');
+
+				$blog = explode(";",$blogcontent);
+
+				for ($x=count($blog)-1; $x>=0; $x--)
+				{
+        echo('<article id="blog">'.$blog[$x].'</article>');
+				}
+			?>
+	</article>
+
+</section>
 
 </body>
 </html>

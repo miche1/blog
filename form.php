@@ -23,12 +23,12 @@
 
 <!--content-->
 <section id="content">
-<h1>Formular</h1>
+<h1>Blog Einträge verwalten</h1>
 
 	<section id="formular">
 		<!--Eingabe Formular-->
 		<div id="EingabeForm">
-			<h3>Einträge hinzufügen</h3>
+			<h3>neuer Eintrag</h3>
 			<form action="form.php" method="post">
 				<p>Thema <br><input type="text" name="tbThema"></p>
 				<p>Name <br><input type="text" name="tbName"></p>
@@ -39,7 +39,7 @@
 
 		<!--Ausgabe Container-->
 		<div id="loadContent">
-			<h3>Vorschau</h3>
+			<h3>Vorschau</h3><br>
 				<?php
 				if(isset($_POST['commit'])){
 					$thema = $_POST["tbThema"];

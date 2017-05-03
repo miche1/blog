@@ -32,7 +32,7 @@
 			<form action="form.php" method="post">
 				<p>Thema <br><input type="text" name="tbThema"></p>
 				<p>Name <br><input type="text" name="tbName"></p>
-				<textarea name="blog" rows="5" cols="40" rows="50"></textarea><br>
+				<textarea name="blog" rows="15" cols="60" ></textarea><br>
 				<input type="submit" name="commit" value="ABSENDEN">
 			</form>
 		</div>

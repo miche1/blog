@@ -11,6 +11,10 @@
 			/*background-color: silver;*/
 			background-image: url(../pics/background.jpg);
 		}
+		p {
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
 		#menu ul {
 		background-color: #333;
 		}

@@ -11,7 +11,7 @@
 				<ul>
 					<li><a href="index.php">Home</a></li>
 					<li><a href="about.html">Über mich</a></li>
-					<li><a href="seite3.html">Seite 3</a></li>
+					<li><a href="projects.html">Projekte</a></li>
 					<li><a href="form.php">Eintrag hinzufügen</a></li>
 				</ul>
 			</nav>

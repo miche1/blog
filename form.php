@@ -24,7 +24,7 @@
 <!--content-->
 <section id="content">
 <h1>Blog Einträge verwalten</h1>
-	<p>Hier besteht die Möglichkeit neue Einträge für den Blog zu erstellen.</p>
+	<p>Hier besteht die Möglichkeit neue Einträge des Bloges zu erstellen.</p>
 	<section id="formular">
 		<!--Eingabe Formular-->
 		<div id="EingabeForm">
@@ -33,7 +33,8 @@
 				<p>Thema <br><input type="text" name="tbThema"></p>
 				<p>Name <br><input type="text" name="tbName"></p>
 				<textarea name="blog" rows="15" cols="60" ></textarea><br>
-				<input type="submit" name="commit" value="ABSENDEN">
+				<input type="reset" name="btdel">
+				<input type="submit" name="commit">
 			</form>
 		</div>
 

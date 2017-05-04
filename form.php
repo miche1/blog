@@ -22,12 +22,12 @@
 </header>
 
 <!--content-->
-<section id="content">
-<h1>Blog Einträge verwalten</h1>
+<article id="content">
+<h1>BLOG EINTRÄGE</h1>
 	<p>Hier besteht die Möglichkeit neue Einträge des Bloges zu erstellen.</p>
 	<section id="formular">
 		<!--Eingabe Formular-->
-		<div id="EingabeForm">
+		<article id="EingabeForm">
 			<h3>neuer Eintrag</h3>
 			<form action="form.php" method="post">
 				<p>Thema <br><input type="text" name="tbThema"></p>
@@ -36,10 +36,10 @@
 				<input type="reset" name="btdel">
 				<input type="submit" name="commit">
 			</form>
-		</div>
+		</article>
 
 		<!--Ausgabe Container-->
-		<div id="loadContent">
+		<article id="loadContent">
 			<h3>Vorschau</h3><br>
 				<?php
 				if(isset($_POST['commit'])){
@@ -53,7 +53,9 @@
 
 					echo $inhalt;
 					echo '</br><p>Eintrag gepeichert</p>';
-}
+					}
 					?>
+	</article>
+</section>
 </body>
 </html>

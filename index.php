@@ -22,7 +22,7 @@
 </header>
 
 <!-- content -->
-<section id="content">
+<article id="content">
 <h1>HOME</h1>
 
 	<article id="blog-list">
@@ -33,12 +33,11 @@
 
 				for ($x=count($blog)-1; $x>=0; $x--)
 				{
-        echo('<article id="blog">'.$blog[$x].'</article>');
+        echo('<section id="blog">'.$blog[$x].'</section>');
 				}
 			?>
 	</article>
 
-</section>
-
+</article>
 </body>
 </html>

@@ -24,7 +24,7 @@
 <!--content-->
 <section id="content">
 <h1>Blog Einträge verwalten</h1>
-
+	<p>Hier besteht die Möglichkeit neue Einträge für den Blog zu erstellen.</p>
 	<section id="formular">
 		<!--Eingabe Formular-->
 		<div id="EingabeForm">

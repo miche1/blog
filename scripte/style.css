@@ -15,6 +15,13 @@
 			margin-top: 1em;
 			margin-bottom: 1em;
 		}
+
+		#menu {
+			position: fixed;
+    	top: 0;
+    	width: 100%;
+		}
+
 		#menu ul {
 		background-color: #333;
 		}

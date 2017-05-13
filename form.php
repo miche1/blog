@@ -43,9 +43,10 @@
 			<h3>Vorschau</h3><br>
 				<?php
 				if(isset($_POST['commit'])){
-					$thema = $_POST["tbThema"];
-					$name = $_POST["tbName"];
-					$kommentar = $_POST["blog"];
+					$thema = htmlspecialchars($_POST["tbThema"]);
+					$name = htmlspecialchars($_POST["tbName"]);
+					$kommentar = htmlspecialchars($_POST["blog"]);
+
 
 					$inhalt= "<h3> ".$thema."</h3><br><p>".$kommentar."<br><br><small>".$name." ... ".date("d.m.Y")." ".date("H:i")."</small></p>";
 

@@ -2,7 +2,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Blog miche1</title>
-<link href="scripte/style.css" rel="stylesheet" type="text/css">
+<link href="scripte/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <!-- Menue Bar-->
@@ -10,9 +10,9 @@
 			<nav>
 				<ul>
 					<li><a href="index.php">Home</a></li>
-					<li><a href="about.html">Über mich</a></li>
-					<li><a href="projects.html">Projekte</a></li>
-					<li><a href="form.php">Eintrag hinzufügen</a></li>
+					<li><a href="scripte/about.html">Über mich</a></li>
+					<li><a href="scripte/projects.html">Projekte</a></li>
+					<li><a href="scripte/form.php">Eintrag hinzufügen</a></li>
 				</ul>
 			</nav>
 			<div>
@@ -22,7 +22,7 @@
 </header>
 
 <!-- content -->
-<article id="content">
+<main id="content">
 <h1>HOME</h1>
 
 	<article id="blog-list">
@@ -38,6 +38,6 @@
 			?>
 	</article>
 
-</article>
+</main>
 </body>
 </html>

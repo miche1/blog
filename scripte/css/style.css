@@ -9,7 +9,7 @@
 		}
 		body{
 			/*background-color: silver;*/
-			background-image: url(../pics/background.jpg);
+			background-image: url(../../pics/background.jpg);
 		}
 		p {
 			margin-top: 1em;
@@ -46,7 +46,7 @@
 		display: none;
 		}
 		#content {
-			padding: 4em;
+			padding: 5%;
 			width: 70%;
 			margin: auto;
 			background-color: white;
@@ -74,4 +74,19 @@
 			margin-top: 1em;
 			font-size: 2em;
 			font-weight:lighter;
+		}
+
+		input[type=text], textarea {
+		  display: inline-block;
+		  padding: 10px;
+		  box-sizing: border-box;
+		  background-color: rgba(0,0,0,0.10);
+		  border: none;
+		}
+		input[type=submit], input[type=reset] {
+  		color: black;
+  		display: inline-block;
+  		border: none;
+  		padding: 5px;
+  		font-size: 1.1em;
 		}

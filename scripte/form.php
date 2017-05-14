@@ -41,7 +41,7 @@
 		<!--Ausgabe Container-->
 		<article id="loadContent">
 			<h3>Vorschau</h3><br>
-				<?php
+			<?php
 				if(isset($_POST['commit'])){
 					$thema = htmlspecialchars($_POST["tbThema"]);
 					$name = htmlspecialchars($_POST["tbName"]);
@@ -50,14 +50,14 @@
 
 					$inhalt= "<h3> ".$thema."</h3><br><p>".$kommentar."<br><br><small>".$name." ... ".date("d.m.Y")." ".date("H:i")."</small></p>";
 
-					file_put_contents('scripte/blog.txt', $inhalt.";", FILE_APPEND);
+					file_put_contents('blog.txt', $inhalt.";", FILE_APPEND);
 
 					echo $inhalt;
 					echo '</br><p>Eintrag gepeichert</p>';
 					}
 					?>
 		</article>
-		
+
 </section>
 </main>
 </body>

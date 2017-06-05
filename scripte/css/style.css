@@ -1,4 +1,13 @@
-* {
+
+
+		@font-face {
+ 			src: url('fonts/Quicksand/Quicksand-Regular.eot') format('eot'),
+					 url('fonts/Quicksand/Quicksand-Regular.woff') format('woff'),
+					 url('fonts/Quicksand/Quicksand-Regular.ttf') format('truetype');
+					 font-family: ms;
+				 }
+
+		* {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
@@ -13,11 +22,6 @@
 		p {
 			margin-top: 1em;
 			margin-bottom: 1em;
-		}
-
-		@font-face {
-		src: url('fonts/Quicksand-Regular.ttf') format('truetype');
-		font-family: ms;
 		}
 
 		#menu {

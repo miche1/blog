@@ -8,7 +8,6 @@
 		color: #333;
 		}
 		body{
-			/*background-color: silver;*/
 			background-image: url(../../pics/background.jpg);
 		}
 		p {
@@ -55,6 +54,12 @@
 			-moz-box-shadow: 10px 10px 50px grey;
 			box-shadow: 10px 10px 50px grey;
 		}
+
+		#content ul {
+			margin-left: 2em;
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
 		#EingabeForm {
 			padding-right: 5em;
 		}
@@ -78,6 +83,7 @@
 		h3 {
 			font-weight:lighter;
 			font-size: 1.5em;
+			padding-bottom: 1em;
 		}
 
 		input[type=text], textarea {
@@ -94,3 +100,13 @@
   		padding: 5px;
   		font-size: 1.1em;
 		}
+		img {
+		padding: 0.3em;
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+		-webkit-box-shadow: 2px 2px 5px grey;
+	  -moz-box-shadow: 2px 2px 5px grey;
+			box-shadow: 2px 2px 5px grey;
+	 }
